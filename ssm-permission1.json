@@ -1,0 +1,23 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "Stmt1629387563127",
+      "Action": [
+        "ssm:CreateDocument",
+        "ssm:DeleteDocument",
+        "ssm:DescribeDocument",
+        "ssm:DescribeDocumentParameters",
+        "ssm:DescribeDocumentPermission",
+        "ssm:GetDocument",
+        "ssm:ListDocuments",
+        "ssm:SendCommand",
+        "ssm:UpdateDocument",
+        "ssm:UpdateDocumentDefaultVersion",
+        "ssm:UpdateDocumentMetadata"
+      ],
+      "Effect": "Allow",
+      "Resource": "*"
+    }
+  ]
+}
