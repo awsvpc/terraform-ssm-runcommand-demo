@@ -1,0 +1,7 @@
+resource "aws_instance" "web" {
+  # ...
+
+  provisioner "aws_ssm_command" {
+    command = "echo ${aws_instance.web.private_ip} >> private_ips.txt"
+  }
+}
